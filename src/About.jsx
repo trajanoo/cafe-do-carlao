@@ -13,9 +13,9 @@ function About() {
           <h2 className="relative font-bold text-4xl after:content-[''] after:rounded-full after:block after:h-[5px] after:w-[100px] after:bg-[#F59A19] after:m-auto after:mt-2">SOBRE NÓS</h2>
           <p className="text-md mt-15 w-[300px] m-auto md:w-auto">No Café do Carlão, Rio Grande do Sul, nos orgulhamos de ser um destino preferido para amantes de café e buscadores de boas conversas. Somos dedicados a oferecer uma experiência excepcional de café em um ambiente acolhedor e convidativo, onde os clientes podem relaxar, descontrair e aproveitar seu tempo com conforto.</p>
           <div className="social-links flex justify-center mt-8 space-x-3">
-          <FacebookIcon sx={{ fontSize: '1.8rem', '&:hover': { color: '#F09924', transition: '200ms' } }}/>
-          <InstagramIcon sx={{ fontSize: '1.8rem', '&:hover': { color: '#F09924', transition: '200ms'  } }}/>
-          <XIcon sx={{ fontSize: '1.8rem', '&:hover': { color: '#F09924', transition: '200ms'  } }}/>
+          <FacebookIcon className="cursor-pointer" sx={{ fontSize: '1.8rem', '&:hover': { color: '#F09924', transition: '200ms' } }}/>
+          <InstagramIcon className="cursor-pointer" sx={{ fontSize: '1.8rem', '&:hover': { color: '#F09924', transition: '200ms'  } }}/>
+          <XIcon className="cursor-pointer" sx={{ fontSize: '1.8rem', '&:hover': { color: '#F09924', transition: '200ms'  } }}/>
         </div>
         </div>
       </section>
