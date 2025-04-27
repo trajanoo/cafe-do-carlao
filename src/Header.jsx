@@ -21,9 +21,11 @@ function Header() {
               Sobre
             </li>
           </a>
-          <li className="hover:bg-[#F59A11] transition-colors duration-300 p-2 rounded-3xl hover:text-black cursor-pointer">
-            Menu
-          </li>
+          <a href="#menu">
+            <li className="hover:bg-[#F59A11] transition-colors duration-300 p-2 rounded-3xl hover:text-black cursor-pointer">
+              Menu
+            </li>
+          </a>
           <li className="hover:bg-[#F59A11] transition-colors duration-300 p-2 rounded-3xl hover:text-black cursor-pointer">
             Avaliações
           </li>

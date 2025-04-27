@@ -5,7 +5,7 @@ import XIcon from '@mui/icons-material/X';
 
 function About() {
   return (
-    <section id="about" className='about flex h-[65vh] items-center justify-around'>
+    <section id="about" className='about flex h-[95vh] 2xl:h-[65vh] items-center justify-around'>
         <div className="image-wrapper">
           <img className="hidden md:block h-[350px] w-[350px] rounded-[50%] object-cover" src="src/assets/about-image.jpg" alt="" />
         </div>
