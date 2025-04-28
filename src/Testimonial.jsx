@@ -7,6 +7,13 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
+// Importando as imagens corretamente
+import ottoImg from './assets/otto.jpg';
+import messiImg from './assets/messi.jpg';
+import machadoImg from './assets/machado.jpg';
+import trajanoImg from './assets/trajano.jpeg';
+import pedroImg from './assets/pedro.jpg';
+
 function Testimonial() {
   return (
     <section id='testimonial' className="py-30 h-[100vh] bg-white">
@@ -39,7 +46,7 @@ function Testimonial() {
         <SwiperSlide>
           <div className="flex flex-col items-center text-center px-4">
             <img
-              src="src/assets/otto.jpg"
+              src={ottoImg}
               alt="Usuário 1"
               className="w-45 h-45 2xl:w-60 2xl:h-60 rounded-full object-cover mb-5 2xl:mb-15 shadow-lg"
             />
@@ -53,7 +60,7 @@ function Testimonial() {
         <SwiperSlide>
           <div className="flex flex-col items-center text-center px-4">
             <img
-              src="src/assets/messi.jpg"
+              src={messiImg}
               alt="Usuário 2"
               className="w-45 h-45 2xl:w-60 2xl:h-60 rounded-full object-cover mb-5 2xl:mb-15 shadow-lg"
             />
@@ -67,7 +74,7 @@ function Testimonial() {
         <SwiperSlide>
           <div className="flex flex-col items-center text-center px-4">
             <img
-              src="src/assets/machado.jpg"
+              src={machadoImg}
               alt="Usuário 3"
               className="w-45 h-45 2xl:w-60 2xl:h-60 rounded-full object-cover mb-5 2xl:mb-15 shadow-lg"
             />
@@ -81,7 +88,7 @@ function Testimonial() {
         <SwiperSlide>
           <div className="flex flex-col items-center text-center px-4">
             <img
-              src="src/assets/trajano.jpeg"
+              src={trajanoImg}
               alt="Usuário 4"
               className="w-45 h-45 2xl:w-60 2xl:h-60 rounded-full object-cover mb-5 2xl:mb-15 shadow-lg"
             />
@@ -95,7 +102,7 @@ function Testimonial() {
         <SwiperSlide>
           <div className="flex flex-col items-center text-center px-4">
             <img
-              src="src/assets/pedro.jpg"
+              src={pedroImg}
               alt="Usuário 5"
               className="w-45 h-45 2xl:w-60 2xl:h-60 rounded-full object-cover mb-5 2xl:mb-15 shadow-lg"
             />

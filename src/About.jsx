@@ -2,12 +2,13 @@ import React from "react";
 import InstagramIcon from '@mui/icons-material/Instagram';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import XIcon from '@mui/icons-material/X';
+import aboutImage from './assets/about-image.jpg';
 
 function About() {
   return (
     <section id="about" className='about flex h-[95vh] 2xl:h-[65vh] items-center justify-around'>
         <div className="image-wrapper">
-          <img className="hidden md:block h-[350px] w-[350px] rounded-[50%] object-cover" src="src/assets/about-image.jpg" alt="" />
+          <img className="hidden md:block h-[350px] w-[350px] rounded-[50%] object-cover" src={aboutImage} alt="" />
         </div>
         <div className="about-content flex flex-col text-center w-[550px]">
           <h2 className="relative font-bold text-4xl after:content-[''] after:rounded-full after:block after:h-[5px] after:w-[100px] after:bg-[#F59A19] after:m-auto after:mt-2">SOBRE NÓS</h2>

@@ -1,4 +1,5 @@
 import React from "react";
+import coffeeHero from './assets/coffee-hero-section.png'
 
 function Hero() {
   return (
@@ -35,7 +36,7 @@ function Hero() {
           <div className="mt-10 md:mt-0">
             <img
               className="w-[300px] md:w-[400px] 2xl:w-[600px]"
-              src="src/assets/coffee-hero-section.png"
+              src={coffeeHero}
               alt=""
             />
           </div>
